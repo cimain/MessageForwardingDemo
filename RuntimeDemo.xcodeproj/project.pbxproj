@@ -15,6 +15,16 @@
 		F76CAF7E2098410C003061C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F76CAF7D2098410C003061C5 /* main.m */; };
 		F76CAF882098410C003061C5 /* RuntimeDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F76CAF872098410C003061C5 /* RuntimeDemoTests.m */; };
 		F76CAF932098410C003061C5 /* RuntimeDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F76CAF922098410C003061C5 /* RuntimeDemoUITests.m */; };
+		F76CAFA4209841EB003061C5 /* FastForwarding.m in Sources */ = {isa = PBXBuildFile; fileRef = F76CAFA3209841EB003061C5 /* FastForwarding.m */; };
+		F76CAFA720984201003061C5 /* NormalForwarding.m in Sources */ = {isa = PBXBuildFile; fileRef = F76CAFA620984201003061C5 /* NormalForwarding.m */; };
+		F76CAFAA209844E6003061C5 /* NSObject+CrashLogHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = F76CAFA9209844E6003061C5 /* NSObject+CrashLogHandle.m */; settings = {COMPILER_FLAGS = "-w"; }; };
+		F76CAFAD20984970003061C5 /* NSObject+AdapterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F76CAFAC20984970003061C5 /* NSObject+AdapterViewController.m */; };
+		F76CAFB020984CDA003061C5 /* Test3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F76CAFAF20984CDA003061C5 /* Test3ViewController.m */; };
+		F76CAFB920984DCA003061C5 /* UIScrollView+Forwarding.m in Sources */ = {isa = PBXBuildFile; fileRef = F76CAFB820984DCA003061C5 /* UIScrollView+Forwarding.m */; };
+		F76CAFBC20989B40003061C5 /* Test2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F76CAFBB20989B40003061C5 /* Test2ViewController.m */; };
+		F76CAFBF2098B6BC003061C5 /* Test1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F76CAFBE2098B6BC003061C5 /* Test1ViewController.m */; };
+		F76CAFC32098BCC2003061C5 /* MessageOriginal.m in Sources */ = {isa = PBXBuildFile; fileRef = F76CAFC22098BCC2003061C5 /* MessageOriginal.m */; };
+		F76CAFC62098BCD8003061C5 /* MessageForwarding.m in Sources */ = {isa = PBXBuildFile; fileRef = F76CAFC52098BCD8003061C5 /* MessageForwarding.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +61,26 @@
 		F76CAF8E2098410C003061C5 /* RuntimeDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RuntimeDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F76CAF922098410C003061C5 /* RuntimeDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RuntimeDemoUITests.m; sourceTree = "<group>"; };
 		F76CAF942098410C003061C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F76CAFA2209841EB003061C5 /* FastForwarding.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FastForwarding.h; sourceTree = "<group>"; };
+		F76CAFA3209841EB003061C5 /* FastForwarding.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FastForwarding.m; sourceTree = "<group>"; };
+		F76CAFA520984201003061C5 /* NormalForwarding.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NormalForwarding.h; sourceTree = "<group>"; };
+		F76CAFA620984201003061C5 /* NormalForwarding.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NormalForwarding.m; sourceTree = "<group>"; };
+		F76CAFA8209844E6003061C5 /* NSObject+CrashLogHandle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+CrashLogHandle.h"; sourceTree = "<group>"; };
+		F76CAFA9209844E6003061C5 /* NSObject+CrashLogHandle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+CrashLogHandle.m"; sourceTree = "<group>"; };
+		F76CAFAB20984970003061C5 /* NSObject+AdapterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+AdapterViewController.h"; sourceTree = "<group>"; };
+		F76CAFAC20984970003061C5 /* NSObject+AdapterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+AdapterViewController.m"; sourceTree = "<group>"; };
+		F76CAFAE20984CDA003061C5 /* Test3ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test3ViewController.h; sourceTree = "<group>"; };
+		F76CAFAF20984CDA003061C5 /* Test3ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test3ViewController.m; sourceTree = "<group>"; };
+		F76CAFB720984DCA003061C5 /* UIScrollView+Forwarding.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+Forwarding.h"; sourceTree = "<group>"; };
+		F76CAFB820984DCA003061C5 /* UIScrollView+Forwarding.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+Forwarding.m"; sourceTree = "<group>"; };
+		F76CAFBA20989B40003061C5 /* Test2ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test2ViewController.h; sourceTree = "<group>"; };
+		F76CAFBB20989B40003061C5 /* Test2ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test2ViewController.m; sourceTree = "<group>"; };
+		F76CAFBD2098B6BC003061C5 /* Test1ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test1ViewController.h; sourceTree = "<group>"; };
+		F76CAFBE2098B6BC003061C5 /* Test1ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test1ViewController.m; sourceTree = "<group>"; };
+		F76CAFC12098BCC2003061C5 /* MessageOriginal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageOriginal.h; sourceTree = "<group>"; };
+		F76CAFC22098BCC2003061C5 /* MessageOriginal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessageOriginal.m; sourceTree = "<group>"; };
+		F76CAFC42098BCD8003061C5 /* MessageForwarding.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MessageForwarding.h; sourceTree = "<group>"; };
+		F76CAFC52098BCD8003061C5 /* MessageForwarding.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MessageForwarding.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +131,19 @@
 		F76CAF6D2098410C003061C5 /* RuntimeDemo */ = {
 			isa = PBXGroup;
 			children = (
+				F76CAFC02098B6D4003061C5 /* MessageForwarding */,
+				F76CAFA12098418E003061C5 /* AdapterHandle */,
+				F76CAFA02098417D003061C5 /* CrashHandle */,
 				F76CAF6E2098410C003061C5 /* AppDelegate.h */,
 				F76CAF6F2098410C003061C5 /* AppDelegate.m */,
 				F76CAF712098410C003061C5 /* ViewController.h */,
 				F76CAF722098410C003061C5 /* ViewController.m */,
+				F76CAFBD2098B6BC003061C5 /* Test1ViewController.h */,
+				F76CAFBE2098B6BC003061C5 /* Test1ViewController.m */,
+				F76CAFBA20989B40003061C5 /* Test2ViewController.h */,
+				F76CAFBB20989B40003061C5 /* Test2ViewController.m */,
+				F76CAFAE20984CDA003061C5 /* Test3ViewController.h */,
+				F76CAFAF20984CDA003061C5 /* Test3ViewController.m */,
 				F76CAF742098410C003061C5 /* Main.storyboard */,
 				F76CAF772098410C003061C5 /* Assets.xcassets */,
 				F76CAF792098410C003061C5 /* LaunchScreen.storyboard */,
@@ -130,6 +169,41 @@
 				F76CAF942098410C003061C5 /* Info.plist */,
 			);
 			path = RuntimeDemoUITests;
+			sourceTree = "<group>";
+		};
+		F76CAFA02098417D003061C5 /* CrashHandle */ = {
+			isa = PBXGroup;
+			children = (
+				F76CAFA2209841EB003061C5 /* FastForwarding.h */,
+				F76CAFA3209841EB003061C5 /* FastForwarding.m */,
+				F76CAFA520984201003061C5 /* NormalForwarding.h */,
+				F76CAFA620984201003061C5 /* NormalForwarding.m */,
+				F76CAFA8209844E6003061C5 /* NSObject+CrashLogHandle.h */,
+				F76CAFA9209844E6003061C5 /* NSObject+CrashLogHandle.m */,
+			);
+			path = CrashHandle;
+			sourceTree = "<group>";
+		};
+		F76CAFA12098418E003061C5 /* AdapterHandle */ = {
+			isa = PBXGroup;
+			children = (
+				F76CAFAB20984970003061C5 /* NSObject+AdapterViewController.h */,
+				F76CAFAC20984970003061C5 /* NSObject+AdapterViewController.m */,
+				F76CAFB720984DCA003061C5 /* UIScrollView+Forwarding.h */,
+				F76CAFB820984DCA003061C5 /* UIScrollView+Forwarding.m */,
+			);
+			path = AdapterHandle;
+			sourceTree = "<group>";
+		};
+		F76CAFC02098B6D4003061C5 /* MessageForwarding */ = {
+			isa = PBXGroup;
+			children = (
+				F76CAFC12098BCC2003061C5 /* MessageOriginal.h */,
+				F76CAFC22098BCC2003061C5 /* MessageOriginal.m */,
+				F76CAFC42098BCD8003061C5 /* MessageForwarding.h */,
+				F76CAFC52098BCD8003061C5 /* MessageForwarding.m */,
+			);
+			path = MessageForwarding;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,8 +339,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F76CAFB920984DCA003061C5 /* UIScrollView+Forwarding.m in Sources */,
+				F76CAFC62098BCD8003061C5 /* MessageForwarding.m in Sources */,
+				F76CAFA4209841EB003061C5 /* FastForwarding.m in Sources */,
+				F76CAFC32098BCC2003061C5 /* MessageOriginal.m in Sources */,
 				F76CAF732098410C003061C5 /* ViewController.m in Sources */,
+				F76CAFBF2098B6BC003061C5 /* Test1ViewController.m in Sources */,
+				F76CAFB020984CDA003061C5 /* Test3ViewController.m in Sources */,
+				F76CAFAA209844E6003061C5 /* NSObject+CrashLogHandle.m in Sources */,
+				F76CAFBC20989B40003061C5 /* Test2ViewController.m in Sources */,
+				F76CAFAD20984970003061C5 /* NSObject+AdapterViewController.m in Sources */,
 				F76CAF7E2098410C003061C5 /* main.m in Sources */,
+				F76CAFA720984201003061C5 /* NormalForwarding.m in Sources */,
 				F76CAF702098410C003061C5 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -370,7 +454,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -419,7 +503,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;

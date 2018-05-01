@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  UIScrollView+Forwarding.h
 //  RuntimeDemo
 //
 //  Created by ChenMan on 2018/5/1.
@@ -8,9 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
+@interface UIScrollView (Forwarding)
 
 @end
-

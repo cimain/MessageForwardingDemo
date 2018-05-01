@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  Test3ViewController.h
 //  RuntimeDemo
 //
 //  Created by ChenMan on 2018/5/1.
@@ -8,9 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
+@interface Test3ViewController : UIViewController
 
 @end
-
